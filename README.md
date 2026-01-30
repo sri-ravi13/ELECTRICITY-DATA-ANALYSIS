@@ -13,8 +13,6 @@ A comprehensive Python-based desktop application for analyzing and visualizing g
 - [Data Requirements](#data-requirements)
 - [Visualizations](#visualizations)
 - [Machine Learning Models](#machine-learning-models)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🌟 Overview
 
@@ -263,24 +261,4 @@ kmeans = KMeans(n_clusters=3, random_state=42)  # Change n_clusters
 ```python
 # Button colors can be modified in the GUI section
 button1 = tk.Button(root, text="...", bg="#008CBA", fg="black", ...)
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-```bash
-git checkout -b feature/AmazingFeature
-```
-
-3. **Commit your changes**
-```bash
-git commit -m 'Add some AmazingFeature'
-```
-
-4. **Push to the branch**
-```bash
-git push origin feature/AmazingFeature
 ```
